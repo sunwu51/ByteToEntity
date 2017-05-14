@@ -1,4 +1,4 @@
-# BytesToEntity
+# ByteToEntity
 We always encounter such a situation:**data from hardware is**`byte[]`,**but we need a** `class` **in coding**.
 So that we can transform the Object to json or xml and send it to other place such as WEB.
 ## usage
