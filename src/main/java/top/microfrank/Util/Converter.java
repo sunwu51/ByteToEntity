@@ -23,7 +23,7 @@ public class Converter {
                         switch (ruleType){
                             case UINT8:
                                 try {
-                                    field.set(t,(int)buf[start]);
+                                    field.set(t,(int)(buf[start]>0?buf[start]:-buf[start]));
                                 } catch (IllegalAccessException e) {
                                     e.printStackTrace();
                                 }
